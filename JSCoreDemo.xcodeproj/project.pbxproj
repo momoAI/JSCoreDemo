@@ -15,6 +15,7 @@
 		8EE1981826BFD5750012D30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1981626BFD5750012D30B /* LaunchScreen.storyboard */; };
 		8EE1982326BFD5750012D30B /* JSCoreDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1982226BFD5750012D30B /* JSCoreDemoTests.swift */; };
 		8EE1982E26BFD5750012D30B /* JSCoreDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1982D26BFD5750012D30B /* JSCoreDemoUITests.swift */; };
+		8EE1983C26C397120012D30B /* TTPolyJSExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1983B26C397110012D30B /* TTPolyJSExport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8EE1982926BFD5750012D30B /* JSCoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE1982D26BFD5750012D30B /* JSCoreDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCoreDemoUITests.swift; sourceTree = "<group>"; };
 		8EE1982F26BFD5750012D30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE1983B26C397110012D30B /* TTPolyJSExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTPolyJSExport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8EE1980B26BFD5710012D30B /* AppDelegate.swift */,
 				8EE1980D26BFD5710012D30B /* SceneDelegate.swift */,
 				8EE1980F26BFD5710012D30B /* ViewController.swift */,
+				8EE1983B26C397110012D30B /* TTPolyJSExport.swift */,
 				8EE1981126BFD5720012D30B /* Main.storyboard */,
 				8EE1981426BFD5750012D30B /* Assets.xcassets */,
 				8EE1981626BFD5750012D30B /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				8EE1981026BFD5710012D30B /* ViewController.swift in Sources */,
 				8EE1980C26BFD5710012D30B /* AppDelegate.swift in Sources */,
+				8EE1983C26C397120012D30B /* TTPolyJSExport.swift in Sources */,
 				8EE1980E26BFD5710012D30B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  JSCoreDemoUITests.swift
 //  JSCoreDemoUITests
 //
-//  Created by 研发部-陆续 on 2021/8/8.
+//  Created by momo on 2021/8/8.
 //
 
 import XCTest
