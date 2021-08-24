@@ -64,8 +64,11 @@ class ViewController: UIViewController {
         let fresult2 = subvalue?.toInt32() ?? 0
         print(fresult2)
         
-        let export = TTPolyJSExport()
-        context?.setObject(export, forKeyedSubscript: NSString(string: "export"))
+        // JSContext方式
+        context?.setObject(TTPolyJSExport.self, forKeyedSubscript: NSString(string: "TTPolyJSExport"))
+        let script = "var poly = TTPolyJSExport.createPoly();poly.payWithAmount(22)"
+        context?.evaluateScript(script)
+        
     }
     
 }

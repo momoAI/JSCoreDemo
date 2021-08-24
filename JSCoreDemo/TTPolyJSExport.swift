@@ -8,12 +8,17 @@
 import Foundation
 import JavaScriptCore
 
-protocol TTPolyJSExportProtocol: JSExport {
+@objc protocol TTPolyJSExportProtocol: JSExport {
+    static func createPoly() -> TTPolyJSExport
     func pay(amount: Double) -> Int
     func camera()
 }
 
-class TTPolyJSExport: NSObject, TTPolyJSExportProtocol {
+@objc class TTPolyJSExport: NSObject, TTPolyJSExportProtocol {
+    class func createPoly() -> TTPolyJSExport {
+        return TTPolyJSExport()
+    }
+    
     func pay(amount: Double) -> Int {
         print("pay amount" + "\(amount)")
         
